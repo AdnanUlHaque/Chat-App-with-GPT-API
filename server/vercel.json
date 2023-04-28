@@ -1,10 +1,14 @@
 {
     "version": 2,
-    "name": "Ai Chat-Bot",
     "builds": [
-       { "src": "app.js", "use": "@vercel/node" }
+       { 
+         "src": "*.js", 
+         "use": "@vercel/node" 
+      }
     ],
     "routes": [
-       { "src": "/(.*)", "dest": "/app.js" }
+       { "src": "/(.*)", 
+       "dest": "/" 
+      }
     ]
  }

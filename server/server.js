@@ -7,7 +7,7 @@ const dotenv = require("dotenv");
 const connectDB = require("./config/db");
 const errorHandler = require("./middlewares/errorMiddleware");
 const mongoose = require('mongoose');
-const PORT = process.env.PORT || 8080
+
 //routes path
 const authRoutes = require("./routes/authRoutes");
 
